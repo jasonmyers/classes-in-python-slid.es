@@ -1,0 +1,4 @@
+<h2>Feeding your fish</h2>
+<div class="fragment">
+<pre><code>class Aquarium(object):</code><code>    ...</code><code>    def feed(self, food):</code><code>        for fish in self.fish:</code><code>            fish.eat(food)</code><code><br></code><code>class Fish(object):</code><code>    ...</code><code>    def eat(self, food):</code><code>        print self.name + " is eating " + food + "!"</code><code><br></code><code>class Goldfish(Fish<span style="font-family: monospace;">):</span></code><code>    pass</code><code><br></code><code><span style="font-family: monospace;">&gt;&gt;&gt; my_aquarium = Aquarium(</span><span style="font-family: monospace; font-size: 16.600265502929688px; font-style: normal; font-variant: normal;">[Goldfish("Spencer"), Goldfish("Susan")]</span><span style="font-family: monospace;">)</span><br></code><code>&gt;&gt;&gt; my_aquarium.feed("flakes")</code><code>Spencer is eating flakes!</code><code>Susan is eating flakes!</code></pre>
+</div>
