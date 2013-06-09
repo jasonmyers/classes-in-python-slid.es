@@ -1,0 +1,4 @@
+<h2>Aquarium class</h2>
+<div class="fragment">
+<pre><code>class Aquarium(object):</code><code>    fish = []</code><code>    def __init__(self, fish):</code><code>        self.fish = fish</code><code><br></code><code>class Fish(object):</code><code><span style="font-family: monospace; font-size: 16.600265502929688px; font-style: normal; font-variant: normal;">    color = "Blue"</span><br></code><code>    def __init__(self, name):</code><code>        self.name = name</code><code><br></code><code>class Goldfish(Fish):</code><code>    color = "Gold"</code><code><br></code><code>class Flounder(Fish):</code><code>    pass</code><code><br></code><code>&gt;&gt;&gt; my_fish = [Goldfish("Spencer"), Goldfish("Vladimir"), Flounder("Susan")]</code><code>&gt;&gt;&gt; my_aquarium = Aquarium(my_fish)</code><code>&gt;&gt;&gt; for fish in my_aquarium.fish:</code><code>...    print fish.name</code><code><br></code></pre>
+</div>
