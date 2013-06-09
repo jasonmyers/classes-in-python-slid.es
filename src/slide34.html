@@ -1,0 +1,5 @@
+<h2>Child classes can also<br>override parent's behavior</h2>
+<h3 class="fragment" data-fragment-index="0">
+<pre><code>class Fish:</code><code>    color = "Blue"    <span class="fragment" data-fragment-index="1"># Default fish color is Blue</span></code><code>    skin = "scales"</code><code><br></code><code>class Flounder(Fish):</code><code>    pass              <span class="fragment" data-fragment-index="2"># Inherits color = "Blue" from parent</span></code><code><br></code><code>class Goldfish(Fish):</code><code>    color = "Gold"    <span class="fragment" data-fragment-index="3"># Override color for Goldfish</span></code><code><br></code><code>&gt;&gt;&gt; susan = Flounder()</code><code>&gt;&gt;&gt; susan.color</code><code>"Blue"</code><code>&gt;&gt;&gt; spencer = Goldfish()</code><code>&gt;&gt;&gt; spencer.color</code><code>"Gold"</code><code><br></code></pre>
+</h3>
+
